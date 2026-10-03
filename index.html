@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>AURA Horizon Pro Wireless Headphones | High-Fidelity ANC Over-Ear Audio</title>
+  <meta name="description" content="Experience studio-grade acoustics with AURA Horizon Pro. Features Adaptive Active Noise Cancellation, 60-hour battery life, lossless spatial audio, and handcrafted memory foam comfort.">
+  <meta name="keywords" content="wireless headphones, ANC headphones, studio headphones, audiophile audio, lossless audio, noise cancelling">
+  <meta name="author" content="AURA Audio Labs">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="AURA Horizon Pro Wireless Headphones">
+  <meta property="og:description" content="Immerse yourself in acoustic perfection with the AURA Horizon Pro ANC headphones.">
+  <meta property="og:image" content="assets/images/headphones-black.jpg">
+  <meta property="og:price:amount" content="299.00">
+  <meta property="og:price:currency" content="USD">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data / JSON-LD for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "AURA Horizon Pro Wireless Headphones",
+    "image": [
+      "assets/images/headphones-black.jpg",
+      "assets/images/headphones-silver.jpg",
+      "assets/images/headphones-navy.jpg"
+    ],
+    "description": "Flagship wireless over-ear headphones with custom 45mm beryllium drivers, hybrid active noise cancellation, and 60 hours battery life.",
+    "brand": {
+      "@type": "Brand",
+      "name": "AURA"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "299.00",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1248"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-content">
+      <div class="announcement-tag">PROMO</div>
+      <p class="announcement-text">
+        ✨ Spring Premiere: Use code <strong class="promo-pill" id="copyPromo">AURA20</strong> for 20% off all orders over $250!
+      </p>
+      <div class="announcement-features">
+        <span>⚡ Free Global Express Shipping</span>
+        <span class="divider">•</span>
+        <span>🛡️ 2-Year Full Warranty</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brandLogo" aria-label="AURA Audio Home">
+        <div class="logo-mark">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a10 10 0 0 0-7.5 16.6L2 22l3.4-2.5A10 10 0 1 0 12 2z"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">AURA</span>
+          <span class="logo-tag">AUDIO LABS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#flagship" class="nav-link active">Flagship</a></li>
+          <li><a href="#bundleSection" class="nav-link">Bundle & Save</a></li>
+          <li><a href="#specsSection" class="nav-link">Specifications</a></li>
+          <li><a href="#reviewsSection" class="nav-link">Reviews <span class="nav-badge">4.9 ★</span></a></li>
+          <li><a href="#relatedSection" class="nav-link">Ecosystem</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-actions">
+        <!-- Currency Selector -->
+        <div class="currency-dropdown">
+          <select id="currencySelector" aria-label="Select Currency" class="currency-select">
+            <option value="USD" selected>USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="INR">INR (₹)</option>
+          </select>
+        </div>
+
+        <!-- Wishlist Toggle -->
+        <button class="icon-btn" id="wishlistHeaderBtn" aria-label="View Wishlist" title="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+          </svg>
+          <span class="action-count" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Cart Trigger Button -->
+        <button class="icon-btn cart-trigger" id="cartOpenBtn" aria-label="Open Shopping Cart" title="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+            <path d="M3 6h18"></path>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="action-count" id="cartCount">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="icon-btn mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false" title="Menu">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true">
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div class="mobile-nav-header">
+        <div class="brand-logo">
+          <div class="logo-mark">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M12 2a10 10 0 0 0-7.5 16.6L2 22l3.4-2.5A10 10 0 1 0 12 2z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">AURA</span>
+            <span class="logo-tag">AUDIO LABS</span>
+          </div>
+        </div>
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close Navigation Menu">✕</button>
+      </div>
+
+      <nav class="mobile-nav-menu">
+        <ul class="mobile-nav-links">
+          <li>
+            <a href="#flagship" class="mobile-nav-link active">
+              <span class="m-nav-icon">🎵</span>
+              <span class="m-nav-text">Flagship Horizon Pro</span>
+              <span class="m-nav-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#bundleSection" class="mobile-nav-link">
+              <span class="m-nav-icon">🎁</span>
+              <span class="m-nav-text">Bundle & Save</span>
+              <span class="nav-badge">Save 15%</span>
+            </a>
+          </li>
+          <li>
+            <a href="#specsSection" class="mobile-nav-link">
+              <span class="m-nav-icon">⚙️</span>
+              <span class="m-nav-text">Specifications</span>
+              <span class="m-nav-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#reviewsSection" class="mobile-nav-link">
+              <span class="m-nav-icon">★</span>
+              <span class="m-nav-text">Reviews</span>
+              <span class="nav-badge">4.9 ★</span>
+            </a>
+          </li>
+          <li>
+            <a href="#relatedSection" class="mobile-nav-link">
+              <span class="m-nav-icon">🎧</span>
+              <span class="m-nav-text">Ecosystem Audio</span>
+              <span class="m-nav-arrow">→</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <div class="mobile-nav-currency">
+          <label for="mobileCurrencySelector">Region & Currency:</label>
+          <select id="mobileCurrencySelector" class="currency-select" aria-label="Select Currency on Mobile">
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="INR">INR (₹)</option>
+          </select>
+        </div>
+        <div class="mobile-perks-list">
+          <div class="m-perk-item">⚡ <span>Free Global Express Shipping on orders $150+</span></div>
+          <div class="m-perk-item">🛡️ <span>2-Year Full Coverage Warranty</span></div>
+          <div class="m-perk-item">🔄 <span>30-Day Risk-Free Home Audition</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <main id="mainContent">
+    <!-- Breadcrumb Bar -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="#">Home</a></li>
+            <li><span class="bc-sep">/</span></li>
+            <li><a href="#">Over-Ear Audio</a></li>
+            <li><span class="bc-sep">/</span></li>
+            <li aria-current="page">AURA Horizon Pro ANC</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Product Showcase / Hero Section -->
+    <section class="product-showcase-section" id="flagship">
+      <div class="container product-grid">
+        
+        <!-- Left Column: Product Gallery -->
+        <div class="product-gallery" id="productGallery">
+          <!-- Main Display Card -->
+          <div class="main-image-container" id="mainImageContainer">
+            <div class="badge-stack">
+              <span class="product-badge badge-bestseller">FLAGSHIP 2026</span>
+              <span class="product-badge badge-discount" id="badgeDiscount">SAVE 20%</span>
+            </div>
+            
+            <!-- Floating Quick Wishlist Button -->
+            <button class="floating-wishlist-btn" id="floatingWishlistBtn" aria-label="Save to Wishlist" title="Save to Wishlist">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+              </svg>
+            </button>
+
+            <!-- Main Interactive Image -->
+            <div class="image-zoom-lens-wrapper" id="zoomLensWrapper">
+              <img 
+                src="assets/images/headphones-black.jpg" 
+                alt="AURA Horizon Pro Wireless Headphones in Cosmic Black" 
+                id="mainProductImg" 
+                class="main-product-image"
+                loading="eager"
+              >
+              <!-- Zoom Zoom Hint / Magnifier Indicator -->
+              <div class="zoom-indicator">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <span>Hover to Magnify</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Thumbnails Strip -->
+          <div class="thumbnails-track" id="thumbnailsTrack">
+            <button class="thumb-item active" data-color="cosmic-black" data-img="assets/images/headphones-black.jpg" aria-label="View Cosmic Black edition">
+              <img src="assets/images/headphones-black.jpg" alt="Cosmic Black Thumbnail">
+              <span class="thumb-label">Cosmic Black</span>
+            </button>
+            <button class="thumb-item" data-color="platinum-silver" data-img="assets/images/headphones-silver.jpg" aria-label="View Platinum Silver edition">
+              <img src="assets/images/headphones-silver.jpg" alt="Platinum Silver Thumbnail">
+              <span class="thumb-label">Silver White</span>
+            </button>
+            <button class="thumb-item" data-color="midnight-navy" data-img="assets/images/headphones-navy.jpg" aria-label="View Midnight Navy edition">
+              <img src="assets/images/headphones-navy.jpg" alt="Midnight Navy Thumbnail">
+              <span class="thumb-label">Midnight Navy</span>
+            </button>
+          </div>
+
+          <!-- Gallery Trust Indicators -->
+          <div class="gallery-highlights">
+            <div class="highlight-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+              <span>Lossless Hi-Res LDAC / aptX</span>
+            </div>
+            <div class="highlight-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+              <span>60-Hr Battery Life</span>
+            </div>
+            <div class="highlight-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Active Hybrid ANC -48dB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Product Configurator & Purchasing Details -->
+        <div class="product-info-panel">
+          
+          <!-- Rating & Brand Header -->
+          <div class="product-header-meta">
+            <span class="product-brand-kicker">AURA SIGNATURE SERIES</span>
+            <div class="review-score-pill" id="jumpToReviews" role="button" tabindex="0">
+              <div class="stars">★★★★★</div>
+              <span class="score-text">4.9</span>
+              <span class="reviews-count">(1,248 reviews)</span>
+            </div>
+          </div>
+
+          <!-- Product Title & Subtitle -->
+          <h1 class="product-title" id="productTitle">Horizon Pro Wireless ANC Studio Headphones</h1>
+          <p class="product-tagline">
+            Engineered with custom 45mm acoustic beryllium drivers, spatial head-tracking, and intelligent hybrid noise cancellation for pristine acoustic depth.
+          </p>
+
+          <!-- Dynamic Pricing Box -->
+          <div class="pricing-card">
+            <div class="price-row">
+              <span class="current-price" id="displayCurrentPrice">$299.00</span>
+              <span class="original-price" id="displayOriginalPrice">$369.00</span>
+              <span class="discount-pill" id="displayDiscountPill">Save $70 (20% Off)</span>
+            </div>
+            
+            <div class="installment-plan">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                <line x1="2" y1="10" x2="22" y2="10"></line>
+              </svg>
+              <span>Or 4 interest-free installments of <strong id="installmentPrice">$74.75</strong> with <b>Klarna</b> / <b>Affirm</b></span>
+            </div>
+
+            <!-- Stock Scarcity Urgency -->
+            <div class="stock-status-box">
+              <div class="pulsing-dot"></div>
+              <span class="stock-text" id="stockScarcity">In High Demand: Only <strong>6 units</strong> left in Cosmic Black</span>
+            </div>
+          </div>
+
+          <!-- Option 1: Color Finishes -->
+          <div class="config-block">
+            <div class="config-label-row">
+              <label class="config-title">Finish / Color:</label>
+              <span class="config-current-value" id="currentColorLabel">Cosmic Black</span>
+            </div>
+            <div class="color-options-grid" role="radiogroup" aria-label="Select Color">
+              <button class="color-swatch active" data-color="cosmic-black" data-color-name="Cosmic Black" data-img="assets/images/headphones-black.jpg" aria-checked="true" role="radio" title="Cosmic Black">
+                <span class="color-circle swatch-black"></span>
+                <span class="swatch-name">Cosmic Black</span>
+              </button>
+              <button class="color-swatch" data-color="platinum-silver" data-color-name="Platinum Silver" data-img="assets/images/headphones-silver.jpg" aria-checked="false" role="radio" title="Platinum Silver">
+                <span class="color-circle swatch-silver"></span>
+                <span class="swatch-name">Platinum Silver</span>
+              </button>
+              <button class="color-swatch" data-color="midnight-navy" data-color-name="Midnight Navy" data-img="assets/images/headphones-navy.jpg" aria-checked="false" role="radio" title="Midnight Navy">
+                <span class="color-circle swatch-navy"></span>
+                <span class="swatch-name">Midnight Navy</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Option 2: Edition / Audio Tier -->
+          <div class="config-block">
+            <div class="config-label-row">
+              <label class="config-title">Hardware Edition:</label>
+              <span class="config-current-value" id="currentEditionLabel">Horizon Pro (Standard)</span>
+            </div>
+            <div class="edition-selector-grid">
+              <button class="edition-card active" data-edition="standard" data-price="299" data-original="369" data-title="Horizon Pro">
+                <div class="edition-header">
+                  <span class="edition-name">Pro Wireless</span>
+                  <span class="edition-price" id="editionPriceStandard" data-usd="299">$299.00</span>
+                </div>
+                <p class="edition-desc">Hybrid ANC, 60h Battery, Spatial Audio</p>
+              </button>
+
+              <button class="edition-card" data-edition="audiophile" data-price="349" data-original="429" data-title="Horizon Studio Master">
+                <div class="edition-tag">RECOMMENDED</div>
+                <div class="edition-header">
+                  <span class="edition-name">Studio Master</span>
+                  <span class="edition-price" id="editionPriceAudiophile" data-usd="349">$349.00</span>
+                </div>
+                <p class="edition-desc">Includes USB-C Lossless 32-bit Hi-Res DAC cable</p>
+              </button>
+            </div>
+          </div>
+
+          <!-- Optional Care Protection Add-On -->
+          <div class="addon-warranty-block">
+            <label class="checkbox-container">
+              <input type="checkbox" id="warrantyAddon" data-price="39">
+              <span class="custom-checkbox"></span>
+              <div class="checkbox-text">
+                <div class="addon-title-row">
+                  <span class="addon-name">Add AURA Care+ Protection Plan (2 Years)</span>
+                  <span class="addon-price" id="addonWarrantyPrice" data-usd="39">+$39.00</span>
+                </div>
+                <p class="addon-subtext">Covers accidental drops, spills, and zero-deductible rapid replacement.</p>
+              </div>
+            </label>
+          </div>
+
+          <!-- Quantity & Purchase Actions -->
+          <div class="purchase-actions-area">
+            <div class="quantity-controller-wrapper">
+              <label for="productQuantityInput" class="sr-only">Quantity</label>
+              <div class="quantity-picker">
+                <button type="button" class="qty-btn" id="qtyDecrement" aria-label="Decrease Quantity">−</button>
+                <input type="number" id="productQuantityInput" value="1" min="1" max="10" readonly aria-label="Selected quantity">
+                <button type="button" class="qty-btn" id="qtyIncrement" aria-label="Increase Quantity">+</button>
+              </div>
+            </div>
+
+            <!-- Add to Cart Primary Button -->
+            <button type="button" class="btn btn-primary add-cart-btn" id="addToCartBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="8" cy="21" r="1"></circle>
+                <circle cx="19" cy="21" r="1"></circle>
+                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+              </svg>
+              <span id="addToCartText">Add to Cart</span>
+              <span class="btn-divider">•</span>
+              <span class="btn-price-calc" id="btnDynamicTotal">$299.00</span>
+            </button>
+
+            <!-- Buy Now Instant Checkout -->
+            <button type="button" class="btn btn-secondary buy-now-btn" id="buyNowBtn">
+              <span>Instant Buy Now</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Guarantee & Delivery Perks -->
+          <div class="delivery-perks-box">
+            <div class="perk-row">
+              <div class="perk-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+              </div>
+              <div class="perk-details">
+                <strong>Free Express Courier Shipping</strong>
+                <p>Order within <span class="countdown-timer" id="countdownHours">04 hrs 32 mins</span> for delivery by <span id="deliveryTargetDate">Friday, Oct 5</span></p>
+              </div>
+            </div>
+
+            <div class="perk-row">
+              <div class="perk-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+                  <path d="M21 3v5h-5"></path>
+                  <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+                  <path d="M8 16H3v5"></path>
+                </svg>
+              </div>
+              <div class="perk-details">
+                <strong>30-Day Risk-Free Audition</strong>
+                <p>Love the acoustics or return for a 100% full refund. We pay return shipping.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Bought Together Bundle Builder Section -->
+    <section class="bundle-section" id="bundleSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">CURATED BUNDLE SAVINGS</span>
+          <h2 class="section-title">Frequently Bought Together</h2>
+          <p class="section-desc">Pair your Horizon Pro headphones with flagship companion accessories and save an extra 15% on the entire bundle.</p>
+        </div>
+
+        <div class="bundle-card">
+          <!-- Bundle Items Checklist -->
+          <div class="bundle-items-list" id="bundleItemsList">
+            
+            <!-- Item 1: Flagship Headphones (Main) -->
+            <div class="bundle-item">
+              <div class="bundle-checkbox-wrap">
+                <input type="checkbox" id="bundleItemMain" checked disabled>
+                <label for="bundleItemMain" class="sr-only">Horizon Pro Wireless Headphones</label>
+              </div>
+              <div class="bundle-thumb">
+                <img src="assets/images/headphones-black.jpg" alt="AURA Horizon Pro" id="bundleMainThumb">
+              </div>
+              <div class="bundle-info">
+                <span class="bundle-label">This item:</span>
+                <span class="bundle-product-title" id="bundleMainTitle">AURA Horizon Pro ANC</span>
+                <div class="bundle-price-tag" id="bundleMainPrice">$299.00</div>
+              </div>
+            </div>
+
+            <div class="bundle-plus">+</div>
+
+            <!-- Item 2: Aluminum Stand -->
+            <div class="bundle-item">
+              <div class="bundle-checkbox-wrap">
+                <input type="checkbox" class="bundle-addon-check" id="bundleItemStand" data-price="49" data-name="AURA Precision Aluminum Stand" data-img="assets/images/accessory-stand.jpg" checked>
+                <label for="bundleItemStand" class="sr-only">Precision Aluminum Stand</label>
+              </div>
+              <div class="bundle-thumb">
+                <img src="assets/images/accessory-stand.jpg" alt="Aluminum Headphone Stand">
+              </div>
+              <div class="bundle-info">
+                <span class="bundle-label">Companion:</span>
+                <span class="bundle-product-title">Precision Aluminum Stand</span>
+                <div class="bundle-price-tag bundle-companion-price" id="bundleStandPrice" data-usd="49">$49.00</div>
+              </div>
+            </div>
+
+            <div class="bundle-plus">+</div>
+
+            <!-- Item 3: Carbon Travel Case -->
+            <div class="bundle-item">
+              <div class="bundle-checkbox-wrap">
+                <input type="checkbox" class="bundle-addon-check" id="bundleItemCase" data-price="39" data-name="AURA Carbon Fiber Hard Case" data-img="assets/images/accessory-case.jpg" checked>
+                <label for="bundleItemCase" class="sr-only">Carbon Fiber Hard Case</label>
+              </div>
+              <div class="bundle-thumb">
+                <img src="assets/images/accessory-case.jpg" alt="Carbon Fiber Hard Case">
+              </div>
+              <div class="bundle-info">
+                <span class="bundle-label">Companion:</span>
+                <span class="bundle-product-title">Carbon Shield Hard Case</span>
+                <div class="bundle-price-tag bundle-companion-price" id="bundleCasePrice" data-usd="39">$39.00</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bundle Summary Action Card -->
+          <div class="bundle-action-summary">
+            <div class="bundle-discount-badge">SAVE 15% ON BUNDLE</div>
+            <div class="bundle-total-row">
+              <span class="bundle-total-label">Bundle Price:</span>
+              <div class="bundle-prices">
+                <span class="bundle-discounted-total" id="bundleDiscountedTotal">$328.95</span>
+                <span class="bundle-regular-total" id="bundleRegularTotal">$387.00</span>
+              </div>
+            </div>
+            <div class="bundle-savings-text" id="bundleSavingsText">You save $58.05 with this bundle!</div>
+            <button class="btn btn-primary bundle-add-btn" id="addBundleBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M5 12h14"></path>
+              </svg>
+              <span>Add All Selected To Cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deep-Dive Specifications & Feature Tabs Section -->
+    <section class="specs-section" id="specsSection">
+      <div class="container">
+        <!-- Interactive Tabs Navigation -->
+        <div class="tab-buttons-nav" role="tablist">
+          <button class="tab-btn active" role="tab" aria-selected="true" data-tab="featuresTab">Key Innovations</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="specsTab">Technical Specs</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="inTheBoxTab">What's in the Box</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="faqTab">Frequently Asked Questions</button>
+        </div>
+
+        <!-- Tab 1: Key Innovations -->
+        <div class="tab-panel active" id="featuresTab" role="tabpanel">
+          <div class="innovations-grid">
+            <div class="innovation-card">
+              <div class="card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 12h2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2z"></path>
+                  <path d="M22 12h-2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2z"></path>
+                  <path d="M2 14c0-5.5 4.5-10 10-10s10 4.5 10 10"></path>
+                </svg>
+              </div>
+              <h3>Custom 45mm Beryllium Drivers</h3>
+              <p>Rigid yet ultra-lightweight diaphragms reproduce transient frequencies up to 48kHz with imperceptible harmonic distortion (&lt;0.05% THD).</p>
+            </div>
+
+            <div class="innovation-card">
+              <div class="card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 0 0-7.5 16.6L2 22l3.4-2.5A10 10 0 1 0 12 2z"></path>
+                </svg>
+              </div>
+              <h3>Adaptive Hybrid ANC (-48dB)</h3>
+              <p>Eight beamforming mics monitor external environment 380,000 times per second to neutralize background rumble, aircraft roar, and chatter.</p>
+            </div>
+
+            <div class="innovation-card">
+              <div class="card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3>60-Hour HyperCharge Battery</h3>
+              <p>Enjoy uninterrupted playback across long flights and work weeks. Fast-charge technology gives 6 hours of full ANC listening with just a 10-minute charge.</p>
+            </div>
+
+            <div class="innovation-card">
+              <div class="card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3>Spatial Head-Tracking Audio</h3>
+              <p>Dynamic 6-axis gyroscopic sensors anchor the soundstage in three dimensions, making instruments feel tangible all around your acoustic sphere.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Technical Specifications -->
+        <div class="tab-panel" id="specsTab" role="tabpanel">
+          <div class="specs-table-wrapper">
+            <table class="specs-table">
+              <tbody>
+                <tr>
+                  <th>Transducer Type</th>
+                  <td>45mm Custom Beryllium Acoustic Dynamic Driver</td>
+                </tr>
+                <tr>
+                  <th>Frequency Response</th>
+                  <td>4 Hz – 48,000 Hz (Hi-Res Audio Certified)</td>
+                </tr>
+                <tr>
+                  <th>Noise Cancellation</th>
+                  <td>Hybrid Quad-Core Digital ANC (-48dB attenuation) + Smart Ambient Mode</td>
+                </tr>
+                <tr>
+                  <th>Bluetooth Version & Range</th>
+                  <td>Bluetooth 5.4 LE Audio (Multipoint pairing up to 2 devices, 25m range)</td>
+                </tr>
+                <tr>
+                  <th>Supported Audio Codecs</th>
+                  <td>LDAC (990kbps), aptX Lossless, aptX Adaptive, AAC, SBC</td>
+                </tr>
+                <tr>
+                  <th>Battery Life</th>
+                  <td>60 hours (ANC On), 80 hours (ANC Off)</td>
+                </tr>
+                <tr>
+                  <th>Weight & Materials</th>
+                  <td>268g | Aircraft-grade aluminum chassis, memory foam earcups, vegan protein leather</td>
+                </tr>
+                <tr>
+                  <th>Microphones</th>
+                  <td>8-microphone beamforming array with AI neural voice isolation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab 3: What's in the Box -->
+        <div class="tab-panel" id="inTheBoxTab" role="tabpanel">
+          <div class="box-contents-grid">
+            <div class="box-item">
+              <span class="box-num">01</span>
+              <div>
+                <strong>AURA Horizon Pro Wireless Headphones</strong>
+                <p>In your chosen signature colorway</p>
+              </div>
+            </div>
+            <div class="box-item">
+              <span class="box-num">02</span>
+              <div>
+                <strong>Magnetic Hard Protective Travel Case</strong>
+                <p>Shockproof molded shell with accessory pocket</p>
+              </div>
+            </div>
+            <div class="box-item">
+              <span class="box-num">03</span>
+              <div>
+                <strong>Braided USB-C to USB-C Audio/Charging Cable</strong>
+                <p>Supports 32-bit/384kHz digital direct playback</p>
+              </div>
+            </div>
+            <div class="box-item">
+              <span class="box-num">04</span>
+              <div>
+                <strong>Gold-plated 3.5mm Aux Cable & Airplane Adapter</strong>
+                <p>Universal latency-free analog connectivity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: FAQ Accordion -->
+        <div class="tab-panel" id="faqTab" role="tabpanel">
+          <div class="faq-accordion" id="faqAccordion">
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Can I connect to both my laptop and phone simultaneously?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Yes. The Horizon Pro features seamless Multipoint Bluetooth 5.4. You can take a Zoom meeting on your MacBook and seamlessly answer a call on your iPhone or Android without re-pairing.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>How does the 30-day home audition trial work?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Take 30 days to test the headphones in your daily life. If they do not completely exceed your expectations, contact our support team for an instant prepaid return label and a 100% full refund.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Is wired lossless playback supported?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>Absolutely. You can listen either via the included low-latency 3.5mm gold-plated cable, or connect via USB-C to unlock the internal studio DAC for lossless 24-bit/96kHz high-resolution audio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Verified Customer Reviews Section -->
+    <section class="reviews-section" id="reviewsSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">AUTHENTIC COMMUNITY FEEDBACK</span>
+          <h2 class="section-title">Acoustic Precision Praised Globally</h2>
+          <p class="section-desc">Over 1,200 verified studio engineers, travelers, and audio enthusiasts share their listening experiences.</p>
+        </div>
+
+        <div class="reviews-summary-card">
+          <!-- Left: Big Rating Number -->
+          <div class="rating-big-stat">
+            <div class="big-num">4.9</div>
+            <div class="big-stars">★★★★★</div>
+            <span class="stat-caption">Based on 1,248 verified reviews</span>
+            <div class="recommend-rate">98% of customers recommend this product</div>
+          </div>
+
+          <!-- Middle: Rating Bars Distribution -->
+          <div class="rating-bars-stack">
+            <div class="rate-bar-row">
+              <span class="bar-label">5 Stars</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="width: 91%"></div>
+              </div>
+              <span class="bar-pct">91%</span>
+            </div>
+            <div class="rate-bar-row">
+              <span class="bar-label">4 Stars</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="width: 7%"></div>
+              </div>
+              <span class="bar-pct">7%</span>
+            </div>
+            <div class="rate-bar-row">
+              <span class="bar-label">3 Stars</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="width: 1.5%"></div>
+              </div>
+              <span class="bar-pct">1.5%</span>
+            </div>
+            <div class="rate-bar-row">
+              <span class="bar-label">2 Stars</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="width: 0.3%"></div>
+              </div>
+              <span class="bar-pct">&lt;1%</span>
+            </div>
+            <div class="rate-bar-row">
+              <span class="bar-label">1 Star</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="width: 0.2%"></div>
+              </div>
+              <span class="bar-pct">&lt;1%</span>
+            </div>
+          </div>
+
+          <!-- Right: Write Review Trigger -->
+          <div class="write-review-prompt">
+            <h4>Share Your Perspective</h4>
+            <p>Tell the community how Horizon Pro fits into your daily acoustic sanctuary.</p>
+            <button class="btn btn-outline" id="openReviewModalBtn">Write a Review</button>
+          </div>
+        </div>
+
+        <!-- Filter Review Pills -->
+        <div class="review-filters-bar">
+          <span class="filter-label">Filter Reviews:</span>
+          <button class="filter-chip active" data-filter="all">All Reviews (1,248)</button>
+          <button class="filter-chip" data-filter="5">5 Stars (1,135)</button>
+          <button class="filter-chip" data-filter="4">4 Stars (87)</button>
+          <button class="filter-chip" data-filter="verified">Verified Buyers Only</button>
+        </div>
+
+        <!-- Review Cards Grid -->
+        <div class="reviews-feed-grid" id="reviewsFeedGrid">
+          <!-- Dynamic review cards rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Complete Ecosystem / Related Products Section -->
+    <section class="related-section" id="relatedSection">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">EXPAND YOUR SOUNDSTAGE</span>
+          <h2 class="section-title">Complementary Audio Gear</h2>
+          <p class="section-desc">Handcrafted to pair effortlessly with your AURA ecosystem.</p>
+        </div>
+
+        <div class="related-products-grid" id="relatedProductsGrid">
+          <!-- Related Product 1: True Wireless Earbuds -->
+          <article class="related-card" data-id="aurabuds-pro" data-name="AURA Pods Pro Wireless Earbuds" data-price="179" data-img="assets/images/product-earbuds.jpg">
+            <div class="related-thumb-wrap">
+              <img src="assets/images/product-earbuds.jpg" alt="AURA Pods Pro Earbuds">
+              <span class="related-badge">NEW RELEASE</span>
+            </div>
+            <div class="related-body">
+              <div class="related-rating">★★★★★ <span>(412)</span></div>
+              <h3 class="related-name">AURA Pods Pro True Wireless</h3>
+              <p class="related-sub">Active Noise Cancelling in pocket-size form factor with 32h playback.</p>
+              <div class="related-bottom-row">
+                <span class="related-price" data-usd="179">$179.00</span>
+                <button class="btn-quick-add" data-id="aurabuds-pro" aria-label="Add AURA Pods Pro to cart">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Related Product 2: Stand -->
+          <article class="related-card" data-id="stand-aluminum" data-name="AURA Precision Aluminum Stand" data-price="49" data-img="assets/images/accessory-stand.jpg">
+            <div class="related-thumb-wrap">
+              <img src="assets/images/accessory-stand.jpg" alt="Precision Aluminum Stand">
+            </div>
+            <div class="related-body">
+              <div class="related-rating">★★★★★ <span>(298)</span></div>
+              <h3 class="related-name">Precision Aluminum Stand</h3>
+              <p class="related-sub">Curved silicone cradle protects headband memory foam from indentation.</p>
+              <div class="related-bottom-row">
+                <span class="related-price" data-usd="49">$49.00</span>
+                <button class="btn-quick-add" data-id="stand-aluminum" aria-label="Add Stand to cart">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Related Product 3: Travel Case -->
+          <article class="related-card" data-id="case-carbon" data-name="AURA Carbon Fiber Hard Case" data-price="39" data-img="assets/images/accessory-case.jpg">
+            <div class="related-thumb-wrap">
+              <img src="assets/images/accessory-case.jpg" alt="Carbon Fiber Hard Case">
+            </div>
+            <div class="related-body">
+              <div class="related-rating">★★★★★ <span>(184)</span></div>
+              <h3 class="related-name">Carbon Fiber Hard Case</h3>
+              <p class="related-sub">Water-resistant shell with magnetic cable compartment for safe transit.</p>
+              <div class="related-bottom-row">
+                <span class="related-price" data-usd="39">$39.00</span>
+                <button class="btn-quick-add" data-id="case-carbon" aria-label="Add Travel Case to cart">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Slide-Out Cart Drawer -->
+  <aside class="cart-drawer-overlay" id="cartOverlay" aria-hidden="true">
+    <div class="cart-drawer-container" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Shopping Cart">
+      <!-- Drawer Header -->
+      <div class="cart-header">
+        <div class="cart-header-title">
+          <h3>Your Bag</h3>
+          <span class="cart-header-count" id="cartDrawerCount">(0 items)</span>
+        </div>
+        <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close Shopping Cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Free Shipping Goal Progress Bar -->
+      <div class="cart-shipping-banner" id="shippingBanner">
+        <div class="shipping-info-row">
+          <span class="shipping-icon">🚚</span>
+          <span class="shipping-progress-text" id="shippingProgressText">Add $51.00 more to unlock <strong>Free Express Shipping!</strong></span>
+        </div>
+        <div class="shipping-bar-track">
+          <div class="shipping-bar-fill" id="shippingBarFill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- Scrollable Cart Items Container -->
+      <div class="cart-items-scroll" id="cartItemsContainer">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+
+      <!-- Empty Cart State Placeholder (hidden when items exist) -->
+      <div class="empty-cart-state" id="emptyCartState">
+        <div class="empty-icon-ring">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+            <path d="M3 6h18"></path>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+        </div>
+        <h4>Your shopping bag is empty</h4>
+        <p>Explore the flagship Horizon Pro headphones and bring studio sound everywhere you go.</p>
+        <button class="btn btn-primary" id="startShoppingBtn">Explore Flagship Product</button>
+      </div>
+
+      <!-- Cart Drawer Footer (Calculations & Checkout) -->
+      <div class="cart-footer" id="cartFooter">
+        <!-- Coupon Code Form -->
+        <div class="promo-box">
+          <form id="promoForm" class="promo-form">
+            <input type="text" id="promoInput" placeholder="Enter coupon code (e.g. AURA20)" aria-label="Coupon Code">
+            <button type="submit" class="btn-promo-apply">Apply</button>
+          </form>
+          <div class="promo-feedback" id="promoFeedback"></div>
+        </div>
+
+        <!-- Dynamic Calculation Breakdown -->
+        <div class="calculation-summary">
+          <div class="calc-row">
+            <span>Subtotal</span>
+            <span class="calc-value" id="cartSubtotal">$0.00</span>
+          </div>
+
+          <div class="calc-row discount-row" id="cartDiscountRow" style="display: none;">
+            <span>Discount (<span id="cartDiscountLabel">PROMO</span>)</span>
+            <span class="calc-value discount-val" id="cartDiscountVal">-$0.00</span>
+          </div>
+
+          <div class="calc-row">
+            <span id="shippingTitle">Estimated Shipping</span>
+            <span class="calc-value" id="cartShippingVal">Calculated at checkout</span>
+          </div>
+
+          <div class="calc-row">
+            <span>Estimated Sales Tax (8.5%)</span>
+            <span class="calc-value" id="cartTaxVal">$0.00</span>
+          </div>
+
+          <div class="calc-row total-row">
+            <span>Total</span>
+            <span class="calc-value total-val" id="cartTotalVal">$0.00</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="cart-action-buttons">
+          <button class="btn btn-primary checkout-btn" id="proceedCheckoutBtn">
+            <span>Secure Checkout</span>
+            <span class="btn-divider">•</span>
+            <span id="checkoutBtnTotal">$0.00</span>
+          </button>
+          <button class="btn-clear-cart" id="clearCartBtn">Clear Entire Bag</button>
+        </div>
+
+        <!-- Trust Badges Under Cart -->
+        <div class="cart-trust-badges">
+          <span>🔒 256-Bit SSL Encrypted</span>
+          <span>•</span>
+          <span>💳 Apple Pay / Visa / PayPal</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Interactive Modal: Checkout Flow Preview -->
+  <dialog class="checkout-modal" id="checkoutModal" aria-labelledby="checkoutModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="checkoutModalTitle">Instant Checkout</h3>
+        <button class="modal-close-btn" id="closeCheckoutModal" aria-label="Close Checkout Modal">✕</button>
+      </div>
+
+      <div class="checkout-modal-body" id="checkoutModalBody">
+        <!-- Order Step 1: Simulated Order Details Form -->
+        <form id="checkoutSimForm" class="checkout-sim-form">
+          <div class="checkout-step-indicator">
+            <span class="step active">1. Contact</span>
+            <span class="step-divider">→</span>
+            <span class="step active">2. Shipping</span>
+            <span class="step-divider">→</span>
+            <span class="step active">3. Payment</span>
+          </div>
+
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="checkoutFirstName">First Name</label>
+              <input type="text" id="checkoutFirstName" required placeholder="Alex" value="Alex">
+            </div>
+            <div class="form-group">
+              <label for="checkoutLastName">Last Name</label>
+              <input type="text" id="checkoutLastName" required placeholder="Mercer" value="Mercer">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="checkoutEmail">Email Address for Confirmation</label>
+            <input type="email" id="checkoutEmail" required placeholder="alex.mercer@aura-audio.com" value="alex.mercer@aura-audio.com">
+          </div>
+
+          <div class="form-group">
+            <label for="checkoutAddress">Shipping Address</label>
+            <input type="text" id="checkoutAddress" required placeholder="742 Evergreen Terrace, Suite 10" value="742 Acoustic Boulevard, Suite 10">
+          </div>
+
+          <div class="checkout-order-summary-box">
+            <h4>Order Total Due: <strong class="checkout-final-amt" id="checkoutFinalAmt">$0.00</strong></h4>
+            <p id="checkoutItemsListSummary">Loading bag summary...</p>
+          </div>
+
+          <button type="submit" class="btn btn-primary confirm-order-btn" id="confirmOrderBtn">
+            <span>Place Order Now</span>
+          </button>
+        </form>
+
+        <!-- Order Step 2: Confirmation / Success State -->
+        <div class="order-success-screen" id="orderSuccessScreen" style="display: none;">
+          <div class="success-confetti-icon">🎉</div>
+          <h3>Order Confirmed!</h3>
+          <p class="order-id-label">Confirmation Number: <strong id="orderIdDisplay">#AUR-892410</strong></p>
+          <p class="order-delivery-notice">A confirmation email and real-time tracking link have been dispatched to your email address.</p>
+          
+          <div class="order-success-receipt" id="orderSuccessReceipt">
+            <!-- Dynamically populated receipt -->
+          </div>
+
+          <button class="btn btn-primary" id="returnToStoreBtn">Continue Exploring AURA</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Interactive Modal: Write a Review -->
+  <dialog class="review-modal" id="reviewModal" aria-labelledby="reviewModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="reviewModalTitle">Write a Customer Review</h3>
+        <button class="modal-close-btn" id="closeReviewModal" aria-label="Close Review Modal">✕</button>
+      </div>
+
+      <form id="writeReviewForm" class="review-form">
+        <div class="form-group">
+          <label>Your Overall Rating:</label>
+          <div class="star-rating-picker" id="starRatingPicker">
+            <button type="button" class="star-pick active" data-rating="1">★</button>
+            <button type="button" class="star-pick active" data-rating="2">★</button>
+            <button type="button" class="star-pick active" data-rating="3">★</button>
+            <button type="button" class="star-pick active" data-rating="4">★</button>
+            <button type="button" class="star-pick active" data-rating="5">★</button>
+            <span class="rating-pick-label" id="ratingPickLabel">5 out of 5 stars (Exceptional)</span>
+          </div>
+        </div>
+
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="reviewerName">Your Name</label>
+            <input type="text" id="reviewerName" required placeholder="e.g. Jordan V.">
+          </div>
+          <div class="form-group">
+            <label for="reviewerTitle">Review Headline</label>
+            <input type="text" id="reviewerTitle" required placeholder="e.g. Best ANC headphones I've owned">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reviewerComment">Detailed Feedback</label>
+          <textarea id="reviewerComment" rows="4" required placeholder="Share your experience with sound quality, comfort, battery life, and materials..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Verified Review</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Interactive Modal: Wishlist Items Manager -->
+  <dialog class="wishlist-modal" id="wishlistModal" aria-labelledby="wishlistModalTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="wishlist-header-group">
+          <h3 id="wishlistModalTitle">Your Wishlist</h3>
+          <span class="cart-header-count" id="wishlistModalCount">(0 items)</span>
+        </div>
+        <button class="modal-close-btn" id="closeWishlistModal" aria-label="Close Wishlist Modal">✕</button>
+      </div>
+
+      <div class="wishlist-modal-body">
+        <div class="wishlist-items-list" id="wishlistItemsList">
+          <!-- Rendered dynamically by JavaScript -->
+        </div>
+
+        <div class="empty-wishlist-state" id="emptyWishlistState">
+          <div class="empty-icon-ring">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+          </div>
+          <h4>Your wishlist is empty</h4>
+          <p>Tap the heart icon on the flagship headphones or companion audio gear to save your dream setup.</p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Fullscreen Acoustic Studio Lightbox Modal -->
+  <dialog class="lightbox-modal" id="lightboxModal" aria-label="Acoustic Packshot Inspection">
+    <div class="lightbox-card">
+      <button class="lightbox-close" id="closeLightboxBtn" aria-label="Close Image Viewer">✕</button>
+      <div class="lightbox-image-wrap">
+        <img src="assets/images/headphones-black.jpg" alt="AURA Horizon Pro Studio Packshot Inspection" id="lightboxImg">
+      </div>
+      <div class="lightbox-controls">
+        <span class="lightbox-caption" id="lightboxCaption">Cosmic Black • Signature 45mm Beryllium Edition</span>
+        <div class="lightbox-swatch-pills">
+          <button class="lb-pill active" data-color="cosmic-black" data-img="assets/images/headphones-black.jpg">Cosmic Black</button>
+          <button class="lb-pill" data-color="platinum-silver" data-img="assets/images/headphones-silver.jpg">Platinum Silver</button>
+          <button class="lb-pill" data-color="midnight-navy" data-img="assets/images/headphones-navy.jpg">Midnight Navy</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Sticky Bottom Purchase Bar for Mobile Screens -->
+  <div class="mobile-sticky-bar" id="mobileStickyBar" aria-hidden="true">
+    <div class="container sticky-bar-inner">
+      <div class="sticky-thumb-group">
+        <img src="assets/images/headphones-black.jpg" alt="Horizon Pro Thumb" id="stickyBarThumb" class="sticky-bar-img">
+        <div class="sticky-text-group">
+          <span class="sticky-name">Horizon Pro ANC</span>
+          <span class="sticky-variant" id="stickyBarVariant">Cosmic Black</span>
+        </div>
+      </div>
+      <div class="sticky-action-group">
+        <span class="sticky-price" id="stickyBarPrice">$299.00</span>
+        <button class="btn btn-primary sticky-cart-btn" id="stickyBarAddBtn">
+          <span>Add to Bag</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Toast Notification System -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <div class="logo-mark">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M12 2a10 10 0 0 0-7.5 16.6L2 22l3.4-2.5A10 10 0 1 0 12 2z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">AURA</span>
+            <span class="logo-tag">AUDIO LABS</span>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Crafting transcendent acoustics through precision acoustic engineering, beryllium acoustics, and timeless industrial aesthetics.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Acoustic Range</h4>
+        <ul>
+          <li><a href="#flagship">Horizon Pro Wireless</a></li>
+          <li><a href="#relatedSection">AURA Pods Pro</a></li>
+          <li><a href="#bundleSection">Precision Stand</a></li>
+          <li><a href="#bundleSection">Carbon Shield Case</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Client Care</h4>
+        <ul>
+          <li><a href="#">30-Day Audition Trial</a></li>
+          <li><a href="#">Warranty & Repairs</a></li>
+          <li><a href="#">Track Shipment</a></li>
+          <li><a href="#">AURA Audio Mobile App</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>Stay in Acoustic Tune</h4>
+        <p>Subscribe for high-fidelity firmware updates, acoustic engineering papers, and exclusive VIP drops.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); window.auraApp?.showToast('Subscribed to VIP acoustics dispatch!', 'success');">
+          <input type="email" required placeholder="Enter your email">
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 AURA Audio Labs Inc. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
